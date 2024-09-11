@@ -21,7 +21,25 @@
 
 10. git retore <file> -> It removes all files changes from the staging area to be committed.This can be useful,if we did some dirty piece of code and now no more want it.Instead of deleting every
     change line by line we can restore it or you can say retore last clean version of the file.
+
+11. git restore --staged <file> -> it removes file from chnages from staging area to the working area.
     This only works if changes are in your staging area.
 
-11. Diff between git rm and git restore
+12. Diff between git rm and git restore
     Ans: If you want to move the whole file back to the untracked state, then we do git rm otherwise if we just want the changes to be move in working area and staging area then we do git restore.
+
+13. git diff commit1 commit2-> gives the difference of all file changes between two commits
+
+14. "git commit -m "< Your commit Message" -> If we want to avoid opening a text editor like vim/name to add commit message we can use this following command
+
+15. 'git remote-> List down all the remote connection names
+
+16. Remote connection -> It helps you to link two git repositories for uploading and downloading changes from each otherwise
+
+17. git remote add <name of remote> <link of the remote> : this command helps us to add a new link to the remote repo and give a name to it
+
+18. git remote rm <name of remote> -> this command deletes a remote connection
+
+19. git remote rename <olname> <newname> -> this command renames the remote connection
+
+Note : The name of the remote connection is always used to establish communction between the repos

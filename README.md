@@ -46,4 +46,4 @@
 
 21. git add . -> this command will add all file from working repo to staging area
 
-Note : The name of the remote connection is always used to establish communction between the repos
+Note : The name of the remote connection is always used to establish communction between the repos.
